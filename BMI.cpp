@@ -16,7 +16,7 @@ void BMI::set_height(int input) {
 	BMI::height = input;
 }
 double BMI::get_bmi() {
-	BMI::bmi = weight * 1.0 / ((height * 1.0) / 100);
+	BMI::bmi = weight * 1.0 / (((height * 1.0) / 100) * ((height * 1.0) / 100));
 	return BMI::bmi;
 }
 string BMI::get_category() {
