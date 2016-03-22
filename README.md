@@ -1,3 +1,5 @@
-#lab2
+lab2
+======
 compilation:make
+
 execute:./BMI
